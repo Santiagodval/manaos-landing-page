@@ -1,0 +1,49 @@
+:root{
+  
+}
+
+body{
+  margin: 0px 0px 0px 0px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg,#a31e21,#c02523, #eb2c24);
+  margin: 0px 0px 2em 0px;
+  flex-wrap: wrap;
+}
+
+h1{
+  padding: 0 0 0 1rem;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 0 0.5em 0 0.5em;
+}
+
+.separator{
+  width: 50vw;
+  height: 30px;
+}
+
+@media(max-width: 1000px){
+  .separator{
+    width:30vw;
+  }
+}
+
+@media(max-width: 710px){
+  .separator{
+    width:10vw;
+  }
+}
+
+@media(max-width: 570px){
+  header{
+    padding-bottom: 3rem
+  }
+}
